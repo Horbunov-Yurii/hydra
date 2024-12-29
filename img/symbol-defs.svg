@@ -3,6 +3,10 @@
 <symbol id="smallright" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.96" d="M22.667 16h-13.333M22.667 16l-5.333 5.333M22.667 16l-5.333-5.333"></path>
 </symbol>
+<symbol id="bigright" viewBox="0 0 73 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.96" d="M63.627 16h-13.333M63.627 16l-5.333 5.333M63.627 16l-5.333-5.333"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.96" d="M50.4 16h-50.4"></path>
+</symbol>
 
 </defs>
 </svg>
