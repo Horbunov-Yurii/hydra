@@ -1,1 +1,24 @@
 // font-family: "Montserrat";
+
+body {
+    background: #302C42;
+    font-family: "Montserrat";
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.525);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    
+    // border-radius: 50px;
+}
+
+::selection {
+    background-color: gray;
+    color: white;
+}

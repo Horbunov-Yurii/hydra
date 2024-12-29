@@ -12,66 +12,102 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <ul class="header__logos">
-                <li> <a href="./index.html" class="header__link"><img src="" alt="" class="header__img"></img></a></li>
-                <li><a href="./index.html" class="header__link"><img src="" alt="" class="header__picture"></img></a></li>
-        </ul>
-        <nav>
-            <ul class="header__list">
-                <li class="header__item"><a href="" class="header__social">ABOUT</a></li>
-                <li class="header__item"><a href="" class="header__social">SERVICES</a></li>
-                <li class="header__item"><a href="" class="header__social">TECHNOLOGIES</a></li>
-                <li class="header__item"><a href="" class="header__social">HOW TO</a></li>
+        <div class="container header__box">
+            <a href="" class="header__logoss"><img src="./img/lodos.png" alt=""></a>
+            <a href="" class="header__link"><img src="./img/hydra.png" alt=""></a>
+            <nav class="header__nav">
+                <ul class="header__navig">
+                    <li><a href="" class="header__links">ABOUT</a></li>
+                    <li><a href="" class="header__links">SERVICES</a></li>
+                    <li><a href="" class="header__links">TECHNOLOGIES</a></li>
+                    <li><a href="" class="header__links">HOW TO</a></li>
+                </ul>
+            </nav>
+            <ul class="header__boxing">
+                <li><button type="button" class="header__butons">CONTACT US</button></li>
+                <li><button type="button" class="header__but">JOIN HYDRA</button></li>
             </ul>
-        </nav>
-        <ul class="header__buttons">
-            <li class="header__element"><button type="button" class="header__btn">CONTACT US</button></li>
-            <li class="header__element"><button type="button" class="header__btn">JOIN HYDRA</button></li>
-        </ul>
+            <button type="button" class="header__button" data-modal-header-open>
+                <img src="./img/Hamburger-Button.png" alt="">
+            </button>
+            <div class="menu is-hidden" data-header-modal>
+                <button type="button" class="menu__btn" data-modal-header-close>
+                    <img src="./img/lodos.png" alt="" class="header__logobur">
+                </button>
+                <ul class="menu__list">
+                  <li class="menu__item"><a href="./index.html" class="menu__link">ABOUT</a></li>
+                  <li class="menu__item"><a href="./index.html" class="menu__link">SERVICES</a></li>
+                  <li class="menu__item"><a href="./index.html" class="menu__link">TECHNOLOGIES</a></li>
+                </ul>
+                <div class="ssw">
+                <ul class="menu__list-contact">
+                  <li class="menu__item-contact"><a href="tel:+38096111111" class="menu__link-contact">HYDRA</a></li>
+                  <li class="menu__item-contact"><a href="mailto:info@devstudio.com" class="menu__link-contact">HOW TO</a></li>
+                </ul>
+                <ul class="menu__list-social">
+                  <li class="menu__item-social"><button type="button" class="header__buto">CONTACT US</button></li>
+                  <li class="menu__item-social"><button type="button" class="header__bur">JOIN HYDRA</button></li>
+                </ul>
+            </div>
+            </div>
         </div>
     </header>
-    <section class="hero">
+    <section class="head">
         <div class="container">
-            <h1 class="hero__title"><span class="hero__span">Dive</span>Into The Depths</h1>
-            <h1 class="hero__title">Of<span class="hero__span">Virtual Reality</span></h1>
-            <button type="button" class="hero-button">BUILD YOUR WORLD</button>
-           <ul class="hero__list">
-            <li class="hero__item">
-                <svg class="hero__icon">
-                    <use></use>
-                    <svg class="hero__icon">
-                        <use></use>
-                    </svg>
-                        <svg class="hero__svg">
-                            <use></use>
-                        </svg>
-                        <h3></h3>
-                    
-                </svg>
-            </li>
-            <li class="hero__item">
-                <svg class="hero__icon">
-                    <use></use>
-                    <svg class="hero__icon">
-                        <use></use>
-                        <svg class="hero__svg"></svg>
-                        <h3></h3>
-                    </svg>
-                </svg>
-            </li>
-            <li class="hero__item">
-                <svg class="hero__icon">
-                    <use></use>
-                    <svg class="hero__icon">
-                        <use></use>
-                        <svg class="hero__svg"></svg>
-                        <h3></h3>
-                    </svg>
-                </svg>
-            </li>
-           </ul>
+            <p class="head__text"><span class="head__span">Dive</span> Into The Depths Of <span class="head__span">Virtual Reality</span></p>
+            <p class="head__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore 
+                nisl tincidunt eget. Lectus mauris eros in vitae .</p>
+            <div class="head__box">
+            <ul class="head__list">
+                <li><button type="button" class="head__button">BUILD YOUR WORLD</button></li>
+                <li class="head__listing"><button type="button" class="head__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+                    <path d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6667M70.8333 50L54.1667 33.3333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button></li>
+            </ul>
+            </div>
+            <div class="head__scrols">
+            <ul class="head__wrap">
+                <li class="head__li">
+                    <button type="button" class="head__btn left"><img src="./img/chevron-circle-right.png" alt=""></button>
+                    <div class="head__boxes">
+                    <img src="./img/locationicon.png" alt="" class="head__loca">
+                    </div>
+                    <div>
+                    <h2 class="head__texting">Pay Us a Visit</h2>
+                    <a href="#" class="head__p">Union St, Seattle, WA 98101, United States</a>
+                    </div>
+                    <button type="button" class="head__btn right"><img src="./img/chevron-circle-left.png" alt=""></button>
+                </li>
+                <li class="head__li">
+                    <button type="button" class="head__bt left"><img src="./img/chevron-circle-right.png" alt=""></button>
+                    <div class="head__boxes">
+                        <img src="./img/phone-call.png" alt="" class="head__image">
+                        </div>
+                        <div>
+                        <h2 class="head__texting">Give Us a Call</h2>
+                        <a href="#" class="head__ps">(110) 1111-1010</a>
+                        </div>
+                        <button type="button" class="head__bt right"><img src="./img/chevron-circle-left.png" alt=""></button>
+                </li>
+                <li class="head__li">
+                    <button type="button" class="head__b left"><img src="./img/chevron-circle-right.png" alt=""></button>
+                    <div class="head__boxes">
+                        <img src="./img/mail.png" alt="" class="head__image">
+                        </div>
+                        <div>
+                        <h2 class="head__texting">Send Us a Message</h2>
+                        <a href="#" class="head__p">Contact@HydraVTech.com</a>
+                        </div>
+                        <button type="button" class="head__b right"><img src="./img/chevron-circle-left.png" alt=""></button>
+                </li>
+            </ul>
+            </div>
         </div>
     </section>
+
+    <script src="./js/scrol.js"></script>
 </body>
 </html>
