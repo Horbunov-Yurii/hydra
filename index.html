@@ -1,147 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style/main.min.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container header__box">
-            <a href="" class="header__logoss"><img src="./img/lodos.png" alt=""></a>
-            <a href="" class="header__link"><img src="./img/hydra.png" alt=""></a>
-            <nav class="header__nav">
-                <ul class="header__navig">
-                    <li><a href="" class="header__links">ABOUT</a></li>
-                    <li><a href="" class="header__links">SERVICES</a></li>
-                    <li><a href="" class="header__links">TECHNOLOGIES</a></li>
-                    <li><a href="" class="header__links">HOW TO</a></li>
-                </ul>
-            </nav>
-            <ul class="header__boxing">
-                <li><button type="button" class="header__butons">CONTACT US</button></li>
-                <li><button type="button" class="header__but">JOIN HYDRA</button></li>
+      <div class="container header__box">
+        <a href="" class="header__logoss"
+          ><img src="./img/lodos.png" alt=""
+        /></a>
+        <a href="" class="header__link"><img src="./img/hydra.png" alt="" /></a>
+        <nav class="header__nav">
+          <ul class="header__navig">
+            <li><a href="" class="header__links">ABOUT</a></li>
+            <li><a href="" class="header__links">SERVICES</a></li>
+            <li><a href="" class="header__links">TECHNOLOGIES</a></li>
+            <li><a href="" class="header__links">HOW TO</a></li>
+          </ul>
+        </nav>
+        <ul class="header__boxing">
+          <li>
+            <button type="button" class="header__butons">CONTACT US</button>
+          </li>
+          <li><button type="button" class="header__but">JOIN HYDRA</button></li>
+        </ul>
+        <button type="button" class="header__button" data-modal-header-open>
+          <img src="./img/Hamburger-Button.png" alt="" />
+        </button>
+        <div class="menu is-hidden" data-header-modal>
+          <button type="button" class="menu__btn" data-modal-header-close>
+            <img src="./img/lodos.png" alt="" class="header__logobur" />
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">ABOUT</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">SERVICES</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">TECHNOLOGIES</a>
+            </li>
+          </ul>
+          <div class="ssw">
+            <ul class="menu__list-contact">
+              <li class="menu__item-contact">
+                <a href="tel:+38096111111" class="menu__link-contact">HYDRA</a>
+              </li>
+              <li class="menu__item-contact">
+                <a href="mailto:info@devstudio.com" class="menu__link-contact"
+                  >HOW TO</a
+                >
+              </li>
             </ul>
-            <button type="button" class="header__button" data-modal-header-open>
-                <img src="./img/Hamburger-Button.png" alt="">
-            </button>
-            <div class="menu is-hidden" data-header-modal>
-                <button type="button" class="menu__btn" data-modal-header-close>
-                    <img src="./img/lodos.png" alt="" class="header__logobur">
-                </button>
-                <ul class="menu__list">
-                  <li class="menu__item"><a href="./index.html" class="menu__link">ABOUT</a></li>
-                  <li class="menu__item"><a href="./index.html" class="menu__link">SERVICES</a></li>
-                  <li class="menu__item"><a href="./index.html" class="menu__link">TECHNOLOGIES</a></li>
-                </ul>
-                <div class="ssw">
-                <ul class="menu__list-contact">
-                  <li class="menu__item-contact"><a href="tel:+38096111111" class="menu__link-contact">HYDRA</a></li>
-                  <li class="menu__item-contact"><a href="mailto:info@devstudio.com" class="menu__link-contact">HOW TO</a></li>
-                </ul>
-                <ul class="menu__list-social">
-                  <li class="menu__item-social"><button type="button" class="header__buto">CONTACT US</button></li>
-                  <li class="menu__item-social"><button type="button" class="header__bur">JOIN HYDRA</button></li>
-                </ul>
-            </div>
-            </div>
+            <ul class="menu__list-social">
+              <li class="menu__item-social">
+                <button type="button" class="header__buto">CONTACT US</button>
+              </li>
+              <li class="menu__item-social">
+                <button type="button" class="header__bur">JOIN HYDRA</button>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </header>
     <section class="head">
-        <div class="container">
-            <p class="head__text"><span class="head__span">Dive</span> Into The Depths Of <span class="head__span">Virtual Reality</span></p>
-            <p class="head__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore 
-                nisl tincidunt eget. Lectus mauris eros in vitae .</p>
-            <div class="head__box">
-            <ul class="head__list">
-                <li><button type="button" class="head__button">BUILD YOUR WORLD</button></li>
-                <li class="head__listing"><button type="button" class="head__arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
-                    <path d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6667M70.8333 50L54.1667 33.3333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </button></li>
-            </ul>
-            </div>
-            <div class="head__scrols">
-            <ul class="head__wrap">
-                <li class="head__li">
-                    <button type="button" class="head__btn left"><img src="./img/chevron-circle-right.png" alt=""></button>
-                    <div class="head__boxes">
-                    <img src="./img/locationicon.png" alt="" class="head__loca">
-                    </div>
-                    <div>
-                    <h2 class="head__texting">Pay Us a Visit</h2>
-                    <a href="#" class="head__p">Union St, Seattle, WA 98101, United States</a>
-                    </div>
-                    <button type="button" class="head__btn right"><img src="./img/chevron-circle-left.png" alt=""></button>
-                </li>
-                <li class="head__li">
-                    <button type="button" class="head__bt left"><img src="./img/chevron-circle-right.png" alt=""></button>
-                    <div class="head__boxes">
-                        <img src="./img/phone-call.png" alt="" class="head__image">
-                        </div>
-                        <div>
-                        <h2 class="head__texting">Give Us a Call</h2>
-                        <a href="#" class="head__ps">(110) 1111-1010</a>
-                        </div>
-                        <button type="button" class="head__bt right"><img src="./img/chevron-circle-left.png" alt=""></button>
-                </li>
-                <li class="head__li">
-                    <button type="button" class="head__b left"><img src="./img/chevron-circle-right.png" alt=""></button>
-                    <div class="head__boxes">
-                        <img src="./img/mail.png" alt="" class="head__image">
-                        </div>
-                        <div>
-                        <h2 class="head__texting">Send Us a Message</h2>
-                        <a href="#" class="head__p">Contact@HydraVTech.com</a>
-                        </div>
-                        <button type="button" class="head__b right"><img src="./img/chevron-circle-left.png" alt=""></button>
-                </li>
-            </ul>
-            </div>
+      <div class="container">
+        <p class="head__text">
+          <span class="head__span">Dive</span> Into The Depths Of
+          <span class="head__span">Virtual Reality</span>
+        </p>
+        <p class="head__lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
+          Lectus mauris eros in vitae .
+        </p>
+        <div class="head__box">
+          <ul class="head__list">
+            <li>
+              <button type="button" class="head__button">
+                BUILD YOUR WORLD
+              </button>
+            </li>
+            <li class="head__listing">
+              <button type="button" class="head__arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 100 100"
+                  fill="none"
+                >
+                  <path
+                    d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6667M70.8333 50L54.1667 33.3333"
+                    stroke="#C0B7E8"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
         </div>
+        <div class="head__scrols">
+          <ul class="head__wrap">
+            <li class="head__li">
+              <button type="button" class="head__btn left">
+                <img src="./img/chevron-circle-right.png" alt="" />
+              </button>
+              <div class="head__boxes">
+                <img src="./img/locationicon.png" alt="" class="head__loca" />
+              </div>
+              <div>
+                <h2 class="head__texting">Pay Us a Visit</h2>
+                <a href="#" class="head__p"
+                  >Union St, Seattle, WA 98101, United States</a
+                >
+              </div>
+              <button type="button" class="head__btn right">
+                <img src="./img/chevron-circle-left.png" alt="" />
+              </button>
+            </li>
+            <li class="head__li">
+              <button type="button" class="head__bt left">
+                <img src="./img/chevron-circle-right.png" alt="" />
+              </button>
+              <div class="head__boxes">
+                <img src="./img/phone-call.png" alt="" class="head__image" />
+              </div>
+              <div>
+                <h2 class="head__texting">Give Us a Call</h2>
+                <a href="#" class="head__ps">(110) 1111-1010</a>
+              </div>
+              <button type="button" class="head__bt right">
+                <img src="./img/chevron-circle-left.png" alt="" />
+              </button>
+            </li>
+            <li class="head__li">
+              <button type="button" class="head__b left">
+                <img src="./img/chevron-circle-right.png" alt="" />
+              </button>
+              <div class="head__boxes">
+                <img src="./img/mail.png" alt="" class="head__image" />
+              </div>
+              <div>
+                <h2 class="head__texting">Send Us a Message</h2>
+                <a href="#" class="head__p">Contact@HydraVTech.com</a>
+              </div>
+              <button type="button" class="head__b right">
+                <img src="./img/chevron-circle-left.png" alt="" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="introduction">
-        <div class="container introduction__box">
-            <div class="box-title">
-            <h2 class="introduction__title">INTRODUCTION</h2>
-            <p class="introduction__sub-title">TO HYDRA VR 
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" class="introduction__sub-title-svg">
-                    <path d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6666M70.8333 50L54.1667 33.3333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-            </p>
-            </div>
-            <p class="introduction__desc">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
-                nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
-                quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-                lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
-            <div class="img-text-box">
-            <img src="./img/vr_hydra.jpg" alt="vr" class="introduction__img">
-            <div class="sub-title-box">
-            <div>
-            <h3 class="introduction__sec-title">ABOUT</h3>
-            <p class="introduction__sec-sub-title">HYDRA VR</p>
-            </div>
-            <p class="introduction__sec-desc">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
-                urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida 
-                dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in. 
-                Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet 
-                sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam 
-                etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet 
-                cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
-                retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
-                n tempor.</p>
-            <a href="#" class="introduction__link">LET’S GET IN TOUCH</a>
-            </div>
-            </div>
+      <div class="container introduction__box">
+        <div class="box-title">
+          <h2 class="introduction__title">INTRODUCTION</h2>
+          <p class="introduction__sub-title">
+            TO HYDRA VR
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              viewBox="0 0 100 100"
+              fill="none"
+              class="introduction__sub-title-svg"
+            >
+              <path
+                d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6666M70.8333 50L54.1667 33.3333"
+                stroke="#C0B7E8"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
         </div>
+        <p class="introduction__desc">
+          Vitae sapien pellentesque habitant morbi tristique senectus et netus
+          et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
+          amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra
+          aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in.
+          Lectus magna fringilla urna porttitor rhoncus vitae.
+        </p>
+        <div class="img-text-box">
+          <img src="./img/vr_hydra.jpg" alt="vr" class="introduction__img" />
+          <div class="sub-title-box">
+            <div>
+              <h3 class="introduction__sec-title">ABOUT</h3>
+              <p class="introduction__sec-sub-title">HYDRA VR</p>
+            </div>
+            <p class="introduction__sec-desc">
+              Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
+              mattis rhoncus urna neque viverra justo. Vivamus at augue eget
+              arcu dictum. Ultrices gravida dictum fusce ut placerat orci.
+              Aenean et tortor at risus viverra adipiscing at in. Mattis aliquam
+              faucibus purus in massa. Est placerat in egestas erat imperdiet
+              sed. Consequat semper viverra nam libero justo laoreet sit amet.
+              Aliquam etiam erat velit scelerisque in dictum non consectetur a.
+              Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor
+              orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit
+              adipiscing bibendum. Leo a diam sollicitudi n tempor.
+            </p>
+            <a href="#" class="introduction__link">LET’S GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+    </section>
     </section>
     <script src="./js/scrol.js"></script>
-</body>
+  </body>
 </html>
