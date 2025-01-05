@@ -965,4 +965,106 @@ body {
     width: 154px;
     height: 48px;
   }
+}
+
+.tehnologi {
+  padding-top: 107px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .tehnologi {
+    padding-top: 114px;
+  }
+}
+.tehnologi__boxx {
+  position: relative;
+  width: 348px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(0deg, rgba(48, 44, 66, 0.79) 0%, rgba(48, 44, 66, 0.79) 100%), url(../img/tehnologi.jpg) lightgray 50%/cover no-repeat;
+  border-radius: 60px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+@media screen and (min-width: 1278px) {
+  .tehnologi__boxx {
+    width: 1278px;
+    border-radius: 160px;
+    padding-top: 108px;
+    padding-bottom: 96px;
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  }
+}
+.tehnologi__title {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (min-width: 1278px) {
+  .tehnologi__title {
+    font-size: 36px;
+  }
+}
+.tehnologi__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+@media screen and (min-width: 1278px) {
+  .tehnologi__text {
+    font-size: 36px;
+  }
+}
+.tehnologi__btn {
+  display: none;
+}
+@media screen and (min-width: 1278px) {
+  .tehnologi__btn {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #433D60;
+    position: absolute;
+    bottom: -35%;
+    transform: translateX(-50%);
+    border: 10px solid rgba(14, 14, 14, 0.6);
+    margin-bottom: 50px;
+  }
+}
+.tehnologi__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tehnologi__item:not(:last-child) {
+  display: none;
+}
+@media screen and (min-width: 1278px) {
+  .tehnologi__item:not(:last-child) {
+    display: block;
+  }
+}
+.tehnologi__item :nth-child(1) .tehnologi__img {
+  width: 174px;
+  height: 174px;
+}
+.tehnologi__item :nth-child(2) .tehnologi__img {
+  width: 252px;
+  height: 252px;
+}
+.tehnologi__item :nth-child(3) .tehnologi__img {
+  width: 263px;
+  height: 263px;
+}
+.tehnologi__item :nth-child(4) .tehnologi__img {
+  width: 282px;
+  height: 282px;
 }/*# sourceMappingURL=main.css.map */
