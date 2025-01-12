@@ -1,4 +1,4 @@
-// Знаходимо елементи
+
 const scrollContainer = document.querySelector('.head__wrap');
 const leftButton = document.querySelector('.head__btn.left');
 const rightButton = document.querySelector('.head__btn.right');
@@ -7,12 +7,12 @@ const rightBt = document.querySelector('.head__bt.right');
 const rightB = document.querySelector('.head__b.left');
 const rightBs = document.querySelector('.head__b.right');
 
-// Додаємо обробник для кнопки "Вліво"
+
 leftButton.addEventListener('click', () => {
   scrollContainer.scrollBy({ left: -360, behavior: 'smooth' });
 });
 
-// Додаємо обробник для кнопки "Вправо"
+
 rightButton.addEventListener('click', () => {
   scrollContainer.scrollBy({ left: 360, behavior: 'smooth' });
 });
