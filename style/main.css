@@ -1219,4 +1219,114 @@ body {
   margin-right: 20px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.form__form {
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 45px 22px 65px 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 21px;
+}
+.form__title:after {
+  content: "";
+  display: block;
+  width: 414px;
+  height: 1px;
+  background-image: linear-gradient(to left, #343045, #C0B7E8, #8176AF, #343045);
+  margin-top: 30px;
+}
+@media screen and (min-width: 1280px) {
+  .form__title {
+    font-size: 36px;
+    line-height: 1.22;
+    margin-bottom: 30px;
+  }
+}
+.form__text {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.21;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 1280px) {
+  .form__text {
+    font-size: 36px;
+    line-height: 1.22;
+    margin-bottom: 65px;
+  }
+}
+.form__flex {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 39px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: center;
+}
+.form__input {
+  width: 300px;
+  height: 53px;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  padding: 18px 25px;
+  margin-bottom: 22px;
+}
+@media screen and (min-width: 1280px) {
+  .form__input:nth-child(-n+4) {
+    width: 524px;
+    height: 72px;
+  }
+}
+.form__input[placeholder=Subject] {
+  width: 1058px;
+  height: 72px;
+  margin: 33px 0;
+}
+.form__comment {
+  width: 300px;
+  height: 219px;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  padding: 18px 29px;
+  margin-bottom: 52px;
+  resize: none;
+}
+@media screen and (min-width: 1280px) {
+  .form__comment {
+    width: 1058px;
+    height: 210px;
+    padding: 27px 42px;
+  }
+}
+.form__button {
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  padding: 15px 85px 16px 84px;
+  color: #343045;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.21;
+}
+@media screen and (min-width: 1280px) {
+  .form__button {
+    padding: 16px 55px 17px 53px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
 }/*# sourceMappingURL=main.css.map */
