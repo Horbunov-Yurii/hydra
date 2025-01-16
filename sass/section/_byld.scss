@@ -81,6 +81,7 @@ display: block;
         }
     &__list {
    display: flex;
+   
 
 @media screen and (min-width: 1280px) {
 gap: 11px;
@@ -88,6 +89,9 @@ gap: 11px;
     }
 
     &__item {
+        width: 310px;
+height: 511px;
+flex-shrink: 0;
           padding: 36px 37px 36px 33px;
         border-radius: 40px;
 background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);

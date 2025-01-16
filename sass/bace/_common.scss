@@ -8,14 +8,14 @@ body {
 
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
     background-color: rgba(0, 0, 0, 0.525);
 }
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
     
-    // border-radius: 50px;
+    border-radius: 50px;
 }
 
 ::selection {
